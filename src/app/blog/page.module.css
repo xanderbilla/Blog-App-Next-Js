@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.img{
+    object-fit: cover;
+}
+
+.content{}
+
+.title{
+    margin-bottom: 10px;
+}
+
+.desc{
+    font-size: 1rem;
+    color: #999;
+}
