@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Contact = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Let's Keep In Touch</h1>
+      <h1 className={styles.title}>Let&apos;s Keep In Touch</h1>
       <div className={styles.content}>
         <div className={styles.imageContainer}>
           <Image src='/contact.png' alt='contact' fill={true} className={styles.img}/>
