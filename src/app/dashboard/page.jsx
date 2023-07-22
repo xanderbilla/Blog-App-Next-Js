@@ -7,11 +7,6 @@ import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 
-export const metadata = {
-  title: 'Dashboard | Xander Billa',
-  description: 'This page is to manage this application. ',
-}
-
 const Dashboard = () => {
   const session = useSession()
   const router = useRouter()
