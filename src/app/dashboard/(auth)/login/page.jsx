@@ -6,11 +6,6 @@ import React, { useState } from 'react'
 import styles from './page.module.css'
 import { useRouter } from "next/navigation";
 
-export const metadata = {
-  title: 'Login | Xander Billa',
-  description: 'This login page for this application. ',
-}
-
 const Login = () => {
 
   const router = useRouter()
