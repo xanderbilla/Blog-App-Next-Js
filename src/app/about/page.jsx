@@ -3,6 +3,11 @@ import styles from './page.module.css'
 import Image from 'next/image'
 import Button from '@/components/Button/Button'
 
+export const metadata = {
+  title: 'About | Xander Billa',
+  description: 'This page is all about the author of this application. ',
+}
+
 const About = () => {
   return (
     <div className={styles.container}>

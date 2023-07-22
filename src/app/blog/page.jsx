@@ -3,8 +3,16 @@ import styles from './page.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
+export const metadata = {
+  title: 'Blogs | Xander Billa',
+  description: 'This page is is showcase of all the blogs by the author of this application. ',
+}
+
 const getData = async () => {
-  const res = await fetch('https://jsonplaceholder.typicode.com/posts')
+  const res = await fetch('https://test.xanderbilla.com/api/posts', {
+      cache: 'no-store'
+    }
+  )
   if (!res.ok) {
     throw new Error('Failed to fetch data')
   }
@@ -18,10 +26,10 @@ const Blog = async () => {
     <div className={styles.container}>
       {
         data.map((item) =>
-          <Link href={`blog/${item.id}`} className={styles.item} key={item.id}>
+          <Link href={`blog/${item._id}`} className={styles.item} key={item._id}>
             <div className={styles.imgContainer}>
               <Image
-                src="https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src={item.img}
                 alt=''
                 width={400}
                 height={250}
@@ -30,7 +38,7 @@ const Blog = async () => {
             </div>
             <div className={styles.content}>
               <h1 className={styles.title}>{item.title}</h1>
-              <p className={styles.desc}>{item.body}</p>
+              <p className={styles.desc}>{item.desc}</p>
             </div>
           </Link>
         )

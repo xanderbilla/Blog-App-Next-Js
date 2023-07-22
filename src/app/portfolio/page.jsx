@@ -2,6 +2,11 @@ import React from 'react'
 import styles from './page.module.css'
 import Link from 'next/link'
 
+export const metadata = {
+  title: 'Portfolio | Xander Billa',
+  description: 'This is the portfolio page of the author.',
+}
+
 const Portfolio = () => {
   return (
     <div className={styles.container}>
