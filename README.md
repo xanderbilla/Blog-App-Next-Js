@@ -1,34 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Simple Blog Application (v1.0)
 
-First, run the development server:
+It is a simple blog an dportfolio application using JavaScript Library ReactJs and it's framework called NextJs. Here users can read blog, create account using their email and password. or ca also login using Google.
+
+
+## Technology Used
+
+Following are the technologies used for this project:
+
+- MongoDB
+- NextJs
+- AWS Amplify
+
+
+## Features
+
+#### ✅ Akready Added
+
+- Dark/Light Mode
+- Google Login
+- Read Blog
+
+#### 💻 Admin
+
+- Manage the Portfolio
+- Add Blog 
+- Remove Blog
+- Manage Login (Logout/Login)
+
+#### 💡 Future Release
+
+- Responsiveness
+- Forgot Password/username option
+- Upload Picture instead of link
+- Typography window for blog posting
+- Link contact with email
+
+
+
+## Installation
+
+Install my-project with npm
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+  mkdir blog-app
+  cd blog-app
+  git clone https://github.com/xanderbilla/Blog-App-Next-Js.git .
+  npm install
 ```
 
-Open [https://test.xanderbilla.com](https://test.xanderbilla.com) with your browser to see the result.
+To start the project 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  npm run dev
+```
+## Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run this project, you will need to add the following environment variables to your .env file
 
-## Learn More
+`MONGO=mongodb+srv://<username>:<password>@nextsjs.2kairv1.mongodb.net/nextjsBlog?retryWrites=true&w=majority`
 
-To learn more about Next.js, take a look at the following resources:
+`GOOGLE_ID=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`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`GOOGLE_SECRET=782936083234-fdnd1casnrqd2kl9q702dqblrprqkscs.apps.googleusercontent.com`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`NEXTAUTH_SECRET=bc1qre8jdw2azrg6tf49wmp652w00xltddxmpk98xp`
 
-## Deploy on Vercel
+`NEXTAUTH_URL="http://localhost:3000"`## Releases
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- v1.0 : July 22, 2023
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Authors
+
+[Xander Billa](https://www.github.com/octokatherine)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
