@@ -5,17 +5,17 @@ import Button from '@/components/Button/Button'
 
 export const metadata = {
   title: 'About | Xander Billa',
-  description: 'This page is all about the author of this application. ',
+  description: 'This page is all about the Food and Kitchen. ',
 }
 
 const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" fill={true} className={styles.img}></Image>
+        <Image src="https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" fill={true} className={styles.img}></Image>
         <div className={styles.imgText}>
-          <h1 className={styles.imgTitle}>Digital StoryTeller</h1>
-          <p className={styles.imgDesc}>Handcrafitng award winning digital experience.</p>
+          <h1 className={styles.imgTitle}>Digital Food StoryTeller</h1>
+          <p className={styles.imgDesc}>Handcrafitng tasty food experience.</p>
         </div>
       </div>
       <div className={styles.textContainer}>

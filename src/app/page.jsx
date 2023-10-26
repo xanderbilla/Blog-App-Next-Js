@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <h1 className={styles.title}>Better design for your digital products.</h1>
+        <h1 className={styles.title}>Better ingredients make tasty food.</h1>
         <p className={styles.desc}>
-          Turning your ideas into reality. we bring together the teams from the global tech industry.
+          Turning your ideas into reality. we bring together the ingredients from the kitchen.
         </p>
         <Button text={"See Our Work"} url={'portfolio'}/>
       </div>

@@ -10,16 +10,16 @@ export const metadata = {
 const Portfolio = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.selectedTitle}>Choose a gallery</h1>
+      <h1 className={styles.selectedTitle}>Choose Category</h1>
       <div className={styles.items}>
         <Link href='portfolio/illustration' className={styles.item}>
-          <span className={styles.title}>Illustration</span>
+          <span className={styles.title}>Homemade</span>
         </Link>
         <Link href='portfolio/websites' className={styles.item}>
-          <span className={styles.title}>Websites</span>
+          <span className={styles.title}>Snacks</span>
         </Link>
         <Link href='portfolio/apps' className={styles.item}>
-          <span className={styles.title}>Apps</span>
+          <span className={styles.title}>Vegan</span>
         </Link>
       </div>
     </div>

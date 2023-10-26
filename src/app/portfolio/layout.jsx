@@ -5,7 +5,7 @@ const layout = ({ children }) => {
     return (
         <div className={styles.layoutTitle}>
             <h1 className={styles.miniTitle}>
-                Our Works
+                Recipes
             </h1>
             {children}
         </div>

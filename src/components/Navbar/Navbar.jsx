@@ -6,6 +6,7 @@ import React from 'react'
 import styles from './navbar.module.css'
 import DarkMode from '../darkModeToggle/DarkMode'
 import { signOut, useSession } from 'next-auth/react'
+import Image from 'next/image'
 
 const Navbar = () => {
 
@@ -13,7 +14,7 @@ const Navbar = () => {
 
     return (
         <div className={styles.container}>
-            <Link href="/" className={styles.logo}>xander.dev</Link>
+            <Link href="/" className={styles.logo}><Image src="/logo2.png" height="40" width="100" alt=""/></Link>
             <div className={styles.links}>
                 <DarkMode />
                 {

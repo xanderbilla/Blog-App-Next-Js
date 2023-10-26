@@ -1,32 +1,27 @@
 export const nav = [
     {
         id: 1,
-        title: 'Home',
+        title: 'HOME',
         path: '/'
     },
     {
         id: 2,
-        title: 'About',
+        title: 'ABOUT',
         path: '/about'
     },
     {
         id: 3,
-        title: 'Blog',
-        path: '/blog'
-    },
-    {
-        id: 4,
-        title: 'Portfolio',
-        path: '/portfolio'
+        title: 'RECIPES',
+        path: 'https://project-foodvarse.netlify.app/'
     },
     {
         id: 5,
-        title: 'Contact',
+        title: 'CONTACT',
         path: '/contact'
     },
     {
         id: 6,
-        title: 'Dashboard',
+        title: 'DASHBOARD',
         path: '/dashboard'
     },
 ]

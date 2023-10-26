@@ -26,15 +26,15 @@
 }
 
 .item:nth-child(1){
-    background: url('/illustration.png');
+    background: url('/homemade.jpeg');
 }
 
 .item:nth-child(2){
-    background: url('/websites.jpg');
+    background: url('/snacks.jpeg');
 }
 
 .item:nth-child(3){
-    background: url('/apps.jpg');
+    background: url('/vegan.jpeg');
 }
 
 .title{
@@ -46,5 +46,5 @@
 }
 
 .item:hover .title{
-    color: #53c28b;
+    color: #d1411e;
 }
